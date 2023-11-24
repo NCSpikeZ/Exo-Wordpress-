@@ -9,7 +9,7 @@
 
                 <p style="text-align: center;"><img src="<?php echo esc_url($image_url); ?>" alt="Erreur 404" style="margin-top: 100px;" /></p>
 
-                <p>Nous sommes désolés, mais la page que vous cherchez n'est pas ou plus disponible. Nous vous suggérons de vous rendre sur <a href="<?php echo esc_url(home_url('/')); ?>">la page d'accueil</a> du site ou d'effectuer une nouvelle recherche :</p>
+                <p>Nous sommes désolés, mais la page que vous cherchez n'est pas ou plus disponible. Nous vous suggérons de vous rendre sur <a href="<?php echo esc_url(home_url('/')); ?>">la page d'accueil</a> du site</p>
 
                 <p>Découvrez nos derniers articles :</p>
 

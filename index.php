@@ -20,7 +20,11 @@
     <div class="col-md">
       <?php $aboutSection = get_page_by_title('about'); ?>
       <header>
-        <h2 class="mb-3"><?php echo $aboutSection->post_title; ?></h2>
+        <h2 class="mb-3">
+          <a href="<?php echo get_permalink($aboutSection->ID); ?>">
+            <?php echo $aboutSection->post_title; ?>
+          </a>
+        </h2>
       </header>
       <p class="lead"><?php echo $aboutSection->post_content; ?></p>
     </div>
